@@ -2,259 +2,101 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Gestoría Pablo Añon</title>
+
+  <meta name="description" content="Gestoría automotriz en Montevideo. Empadronamiento, transferencias, reempadronamiento y más. Atención rápida por WhatsApp.">
+
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="min-h-screen bg-white text-slate-900">
-  <header>
-    <div class="bg-[#0047d9] text-white">
-      <div class="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-5">
-        <div class="flex items-center gap-4">
-          <div class="flex h-14 w-14 items-center justify-center rounded-lg bg-white text-3xl font-black text-[#0047d9] shadow-sm">
-            G
-          </div>
-          <div>
-            <p class="text-2xl font-bold leading-none">Gestoría</p>
-            <p class="text-xl font-semibold leading-none text-blue-100">Pablo Añon</p>
-          </div>
-        </div>
 
-        <nav class="hidden items-center gap-8 text-sm font-medium md:flex">
-          <a href="#inicio" class="transition hover:text-blue-200">Inicio</a>
-          <a href="#tramites" class="transition hover:text-blue-200">Trámites</a>
-          <a href="#formularios" class="transition hover:text-blue-200">Formularios</a>
-          <a href="#contacto" class="transition hover:text-blue-200">Contacto</a>
-        </nav>
-      </div>
+<body class="bg-white text-slate-900">
+
+<!-- HEADER -->
+<header class="bg-[#0047d9] text-white">
+  <div class="max-w-6xl mx-auto flex items-center gap-4 px-6 py-5">
+
+    <!-- LOGO NUEVO -->
+    <img src="logo.png" alt="Logo Gestoría" class="h-16 w-16 object-contain bg-white rounded-lg p-2">
+
+    <div>
+      <h1 class="text-2xl font-bold">Gestoría</h1>
+      <p class="text-xl text-blue-100">Pablo Añon</p>
+      <p class="text-sm text-blue-200">Gestoría automotriz en Montevideo – trámites rápidos y seguros</p>
     </div>
 
-    <div class="bg-[#5fb37b] text-white">
-      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <p class="text-2xl font-semibold tracking-tight">Portal trámites</p>
-        <a href="#contacto" class="rounded-md border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium transition hover:bg-white/20">
-          Consultar
-        </a>
-      </div>
-    </div>
-  </header>
+  </div>
+</header>
 
-  <main id="inicio">
-    <section class="mx-auto max-w-6xl px-6 py-6">
-      <div class="flex flex-wrap items-center gap-3 text-sm text-slate-500">
-        <span>Inicio</span>
-        <span>›</span>
-        <span>Trámites y servicios</span>
-        <span>›</span>
-        <span class="font-medium text-slate-800">Gestoría Pablo Añon</span>
-      </div>
-    </section>
+<!-- BARRA VERDE -->
+<div class="bg-[#5fb37b] text-white py-6 px-6">
+  <h2 class="text-3xl font-semibold max-w-6xl mx-auto">Portal trámites</h2>
+</div>
 
-    <section class="mx-auto max-w-6xl border-t border-slate-200 px-6 pb-16 pt-10">
-      <p class="text-lg font-semibold text-slate-500">Solicitud</p>
-      <h1 class="mt-4 max-w-4xl text-5xl font-bold tracking-tight text-slate-800 md:text-6xl">
-        Trámites vehiculares y gestión personalizada
-      </h1>
+<!-- TRAMITES -->
+<section class="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-2 gap-6">
 
-      <div class="mt-8 flex flex-wrap items-center gap-4 text-slate-600">
-        <p class="text-lg"><span class="font-medium">Atención actualizada:</span> rápida, clara y directa.</p>
-        <a href="#tramites" class="rounded-md border border-[#0047d9] px-5 py-3 text-sm font-semibold text-[#0047d9] transition hover:bg-blue-50">Ver trámites</a>
-        <a href="#contacto" class="rounded-md border border-[#0047d9] px-5 py-3 text-sm font-semibold text-[#0047d9] transition hover:bg-blue-50">Contacto</a>
-      </div>
+  <!-- EMPADRONAMIENTO -->
+  <div class="border rounded-lg p-5 shadow">
+    <h3 class="font-semibold text-lg">Empadronamiento 🚗</h3>
+    <ul class="text-sm mt-3 space-y-1">
+      <li>• Formulario completo y firmado</li>
+      <li>• Documentación del vehículo</li>
+      <li>• Presentar vehículo</li>
+    </ul>
 
-      <div class="mt-12 grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
-        <div>
-          <h2 class="text-3xl font-bold">Descripción</h2>
-          <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-700">
-            En Gestoría Pablo Añon te ayudamos con empadronamientos, cambios de titularidad,
-            reempadronamientos y otros trámites vinculados a vehículos, con seguimiento
-            personalizado y orientación en cada paso.
-          </p>
-        </div>
+    <a href="https://api.whatsapp.com/send?phone=59894179044&text=Hola%20quiero%20empadronar%20un%20vehículo"
+       target="_blank"
+       class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+      Iniciar trámite por WhatsApp
+    </a>
+  </div>
 
-        <div class="rounded-xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
-          <h3 class="text-xl font-bold text-slate-800">Atención</h3>
-          <div class="mt-4 space-y-3 text-sm text-slate-700">
-            <p><span class="font-semibold">Modalidad:</span> presencial y por WhatsApp</p>
-            <p><span class="font-semibold">Respuesta:</span> seguimiento personalizado</p>
-            <p><span class="font-semibold">Cobertura:</span> Montevideo y consultas generales</p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- CAMBIO TITULARIDAD -->
+  <div class="border rounded-lg p-5 shadow">
+    <h3 class="font-semibold text-lg">Cambio de titularidad 🚗</h3>
+    <ul class="text-sm mt-3 space-y-1">
+      <li>• Formulario firmado</li>
+      <li>• Título de propiedad</li>
+      <li>• SOA vigente</li>
+    </ul>
 
-    <section id="tramites" class="mx-auto max-w-6xl px-6 py-4">
-      <h2 class="text-3xl font-bold text-slate-800">Trámites</h2>
-      <div class="mt-8 grid items-start gap-5 md:grid-cols-2 xl:grid-cols-3">
+    <a href="https://api.whatsapp.com/send?phone=59894179044&text=Hola%20quiero%20transferir%20un%20vehículo"
+       target="_blank"
+       class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+      Iniciar trámite por WhatsApp
+    </a>
+  </div>
 
-        <details class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <summary class="cursor-pointer list-none text-xl font-semibold text-slate-800">Empadronamiento 🚗🏍️🚚🛻</summary>
-          <p class="mt-3 text-sm leading-7 text-slate-600">Registro del vehículo para poder circular.</p>
-          <ul class="mt-4 space-y-2 text-sm text-slate-700">
-            <li>• Formulario completo y firmado por quien realiza el trámite (CI, pasaporte o carné diplomático vigente). Firmado por el/los titulares.</li>
-            <li>• Origen del vehículo: factura de compra, formulario de empadronamiento firmado y sellado, carta de venta o declaración jurada según corresponda.</li>
-            <li>• La documentación debe incluir comprador (nombre y CI o RUT) y datos del vehículo (marca, modelo, Nº chasis y motor).</li>
-            <li>• Presentar el vehículo para inspección.</li>
-            <li>• Retirar previamente permiso de circulación provisorio en Pedernal 2219.</li>
-            <li>• Requisitos técnicos para remolques: luces reglamentarias, paragolpe, guardabarros, cadenas de enganche y, si corresponde, frenos e informe técnico.</li>
-            <li>• Casos especiales: vendedor particular, leasing, menor de edad, tutor/curador, poder o empresa.</li>
-          </ul>
-        </details>
+</section>
 
-        <details class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <summary class="cursor-pointer list-none text-xl font-semibold text-slate-800">Cambio de titularidad 🚗🚙🚚🚌</summary>
-          <p class="mt-3 text-sm leading-7 text-slate-600">Cambio de titularidad de vehículos registrables.</p>
-          <ul class="mt-4 space-y-2 text-sm text-slate-700">
-            <li>• Formulario completo y firmado (CI, pasaporte o carné diplomático vigente). Firmado por el/los titulares.</li>
-            <li>• Título de propiedad inscripto o testimonio notarial.</li>
-            <li>• Patente al día, sin deudas, multas ni otros adeudos.</li>
-            <li>• Libreta de circulación o denuncia policial con padrón y/o matrícula.</li>
-            <li>• ITV vigente si el vehículo tiene 5 años o más.</li>
-            <li>• SOA vigente con datos del vehículo.</li>
-            <li>• Casos especiales: taxis, remises, escolares y ambulancias; IMESI para ciertos vehículos; menor de edad, fallecimiento, tutor/curador, poder o empresa.</li>
-          </ul>
-        </details>
+<!-- FORMULARIOS -->
+<section class="max-w-6xl mx-auto px-6 py-10">
+  <h2 class="text-3xl font-bold mb-6">Formularios</h2>
 
-        <details class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <summary class="cursor-pointer list-none text-xl font-semibold text-slate-800">Cambio de titularidad – Vehículos no registrables 🏍️🛵🛻</summary>
-          <p class="mt-3 text-sm leading-7 text-slate-600">Motocicleta, triciclo, remolque, etc.</p>
-          <ul class="mt-4 space-y-2 text-sm text-slate-700">
-            <li>• Formulario completo y firmado (CI, pasaporte o carné diplomático vigente).</li>
-            <li>• Documento de identidad del titular o titulares.</li>
-            <li>• Comprobante de propiedad: compraventa, factura o documento equivalente.</li>
-            <li>• Libreta o documento del vehículo, si corresponde.</li>
-            <li>• Patente al día, sin deudas ni multas pendientes.</li>
-            <li>• SOA vigente.</li>
-            <li>• Si no concurre el titular, menor de edad o actúa apoderado, se debe presentar la documentación correspondiente.</li>
-          </ul>
-        </details>
+  <div class="grid md:grid-cols-2 gap-4">
 
-        <details class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <summary class="cursor-pointer list-none text-xl font-semibold text-slate-800">Reempadronamiento 📄🔁</summary>
-          <p class="mt-3 text-sm leading-7 text-slate-600">Gestión para vehículos provenientes de otra intendencia.</p>
-          <ul class="mt-4 space-y-2 text-sm text-slate-700">
-            <li>• Formulario completo y firmado (CI, pasaporte o carné diplomático vigente). Firmado por el/los titulares.</li>
-            <li>• Patente al día, sin deudas, multas ni otros adeudos.</li>
-            <li>• Libreta de circulación o denuncia policial con padrón y/o matrícula.</li>
-            <li>• Entregar matrículas o denuncia por hurto/extravío.</li>
-            <li>• Constancia de domicilio según Ley 18.456.</li>
-            <li>• SOA vigente.</li>
-            <li>• Presentar el vehículo con motor limpio para inspección.</li>
-            <li>• Casos especiales: afectación turismo, servicio público, no titular municipal, fallecimiento, poder o empresa.</li>
-          </ul>
-        </details>
+    <a href="/formularios/no-registrables.pdf" target="_blank"
+       class="border p-4 rounded hover:shadow">
+      ⬇️ No registrables
+    </a>
 
-        <details class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <summary class="cursor-pointer list-none text-xl font-semibold text-slate-800">Baja de vehículo ❌🚗</summary>
-          <p class="mt-3 text-sm leading-7 text-slate-600">Trámite para baja administrativa del vehículo.</p>
-          <ul class="mt-4 space-y-2 text-sm text-slate-700">
-            <li>• Formulario completo y firmado (CI, pasaporte o carné diplomático vigente).</li>
-            <li>• Documento de identidad del titular o titulares.</li>
-            <li>• Libreta de circulación o denuncia policial en caso de extravío.</li>
-            <li>• Entrega de matrículas o denuncia policial.</li>
-            <li>• Patente al día, sin deudas ni multas pendientes.</li>
-            <li>• Si actúa un tercero, menor, empresa o apoderado, se debe agregar la documentación correspondiente.</li>
-            <li>• Puede requerirse inspección del vehículo según el caso.</li>
-          </ul>
-        </details>
+  </div>
+</section>
 
-        <details class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <summary class="cursor-pointer list-none text-xl font-semibold text-slate-800">Retiro y adjudicación de matrículas 🔢</summary>
-          <p class="mt-3 text-sm leading-7 text-slate-600">Gestión de retiro y asignación de matrículas del vehículo.</p>
-          <ul class="mt-4 space-y-2 text-sm text-slate-700">
-            <li>• Formulario completo y firmado por quien realiza el trámite. Firmado por el/los titulares.</li>
-            <li>• Libreta de circulación o denuncia policial con padrón y/o matrícula.</li>
-            <li>• No registrar deudas: multas, peajes, custodia, convenios u otros adeudos.</li>
-            <li>• El sistema generará el costo de patente del bimestre en curso.</li>
-            <li>• Puede requerir inspección con motor limpio en siniestro, restos, remate o inconsistencias de motor/chasis.</li>
-            <li>• Casos especiales: reparación sin número original, adquisición por seguros/BSE/OSE, fallecimiento, poder o empresa.</li>
-          </ul>
-        </details>
+<!-- CONTACTO -->
+<section class="max-w-6xl mx-auto px-6 py-10">
+  <h2 class="text-3xl font-bold mb-4">Contacto</h2>
+  <p>WhatsApp: +598 94 179 044</p>
+  <p>Email: pabloanongestoria@gmail.com</p>
+</section>
 
-        <details class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <summary class="cursor-pointer list-none text-xl font-semibold text-slate-800">Entrega transitoria de matrículas 🔢➡️</summary>
-          <p class="mt-3 text-sm leading-7 text-slate-600">Entrega provisoria de matrículas en situaciones especiales.</p>
-          <ul class="mt-4 space-y-2 text-sm text-slate-700">
-            <li>• Formulario completo y firmado (CI, pasaporte o carné diplomático vigente). Firmado por el/los titulares.</li>
-            <li>• Patente al día, incluido el bimestre en curso, sin deudas ni multas pendientes.</li>
-            <li>• Libreta de circulación o denuncia policial con padrón y/o matrícula.</li>
-            <li>• Entregar matrículas del vehículo o denuncia con serie y número en caso de hurto/extravío.</li>
-            <li>• En siniestro o restos, carta de la aseguradora indicando el motivo.</li>
-            <li>• Casos especiales: matrículas SDI, fallecimiento, no titular municipal, menor de edad, poder o empresa.</li>
-          </ul>
-        </details>
+<!-- BOTON WHATSAPP -->
+<a href="https://api.whatsapp.com/send?phone=59894179044&text=Hola%20quiero%20asesoramiento%20por%20un%20trámite"
+   target="_blank"
+   class="fixed bottom-6 right-6 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg animate-bounce">
+   💬 WhatsApp
+</a>
 
-      </div>
-    </section>
-
-    <section class="mx-auto max-w-6xl px-6 py-10">
-      <div class="flex justify-center">
-        <a href="#formularios" class="rounded-lg bg-[#5fb37b] px-6 py-3 text-white font-semibold shadow hover:bg-green-600 transition">
-          Formularios
-        </a>
-      </div>
-    </section>
-
-    <section id="formularios" class="mx-auto max-w-6xl px-6 py-10">
-      <h2 class="text-3xl font-bold text-slate-800">Formularios</h2>
-      <p class="mt-3 max-w-3xl text-slate-600">
-        Estos enlaces están preparados para usar carpeta propia <strong>/formularios/</strong> cuando la página esté publicada.
-      </p>
-      <div class="mt-6 grid gap-4 md:grid-cols-2">
-        <a href="/formularios/empadronamiento.pdf" target="_blank" class="block rounded-lg border p-4 hover:shadow">📄 Empadronamiento</a>
-        <a href="/formularios/cambio-registrables.pdf" target="_blank" class="block rounded-lg border p-4 hover:shadow">📄 Cambio titularidad registrables</a>
-        <a href="/formularios/no-registrables.pdf" target="_blank" class="block rounded-lg border p-4 hover:shadow">📄 No registrables</a>
-        <a href="/formularios/reempadronamiento.pdf" target="_blank" class="block rounded-lg border p-4 hover:shadow">📄 Reempadronamiento</a>
-        <a href="/formularios/baja.pdf" target="_blank" class="block rounded-lg border p-4 hover:shadow">📄 Baja vehículo</a>
-        <a href="/formularios/retiro-matriculas.pdf" target="_blank" class="block rounded-lg border p-4 hover:shadow">📄 Retiro y adjudicación</a>
-        <a href="/formularios/entrega-transitoria.pdf" target="_blank" class="block rounded-lg border p-4 hover:shadow">📄 Entrega transitoria</a>
-      </div>
-    </section>
-
-    <section id="requisitos" class="mx-auto max-w-6xl px-6 py-16">
-      <h2 class="text-3xl font-bold text-slate-800">Cómo trabajamos</h2>
-      <div class="mt-8 grid gap-5 md:grid-cols-2">
-        <div class="rounded-xl border-l-4 border-[#0047d9] bg-slate-50 p-5"><p class="text-base font-medium text-slate-800">Asesoramiento claro antes de iniciar el trámite</p></div>
-        <div class="rounded-xl border-l-4 border-[#0047d9] bg-slate-50 p-5"><p class="text-base font-medium text-slate-800">Revisión de documentación</p></div>
-        <div class="rounded-xl border-l-4 border-[#0047d9] bg-slate-50 p-5"><p class="text-base font-medium text-slate-800">Seguimiento personalizado</p></div>
-        <div class="rounded-xl border-l-4 border-[#0047d9] bg-slate-50 p-5"><p class="text-base font-medium text-slate-800">Atención por WhatsApp</p></div>
-      </div>
-    </section>
-
-    <section id="contacto" class="border-t border-slate-200 bg-slate-50 py-16">
-      <div class="mx-auto grid max-w-6xl gap-8 px-6 lg:grid-cols-2">
-        <div>
-          <h2 class="text-3xl font-bold text-slate-800">Contacto</h2>
-          <p class="mt-4 max-w-xl text-lg leading-8 text-slate-700">
-            Consultanos por tu trámite y te indicamos exactamente qué documentación precisás.
-          </p>
-        </div>
-
-        <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <div class="space-y-4 text-sm text-slate-700">
-            <p><span class="font-semibold">WhatsApp:</span> +598 94 179 044</p>
-            <p><span class="font-semibold">Correo:</span> pabloanongestoria@gmail.com</p>
-            <p><span class="font-semibold">Horario:</span> Lunes a viernes</p>
-            <p><span class="font-semibold">Ubicación:</span> Montevideo, Uruguay</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="border-t border-slate-200 py-8">
-    <div class="mx-auto max-w-6xl px-6 text-sm text-slate-500">
-      © 2026 Gestoría Pablo Añon. Todos los derechos reservados.
-    </div>
-  </footer>
-
-  <a
-    href="https://api.whatsapp.com/send?phone=59894179044&text=Hola%20quiero%20consultar%20por%20un%20tr%C3%A1mite"
-    target="_blank"
-    class="fixed bottom-6 right-6 flex items-center gap-2 rounded-full bg-green-500 px-5 py-3 text-white shadow-lg transition hover:bg-green-600"
-  >
-    <span class="text-lg">💬</span>
-    <span class="text-sm font-medium">WhatsApp</span>
-  </a>
 </body>
 </html>
